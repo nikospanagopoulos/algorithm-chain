@@ -29,22 +29,26 @@ algorithm-chain/
 ├── math-skills/
 │   ├── README.md
 │   ├── go.mod
-│   └── ...
+│   ├── main.go
+│   ├── statistics/
+│   ├── tests/
+│   └── docs/
 ├── guess-it-1/
 │   ├── README.md
-│   ├── go.mod
-│   └── ...
+│   └── student/           code, go.mod and script.sh
 ├── linear-stats/
 │   ├── README.md
 │   ├── go.mod
-│   └── ...
+│   ├── main.go
+│   ├── internals/
+│   └── docs/
 └── guess-it-2/
     ├── README.md
     ├── go.mod
+    ├── main.go
+    ├── script.sh
     ├── internals/
     └── docs/
-        ├── PRD.md
-        └── TASK_CARDS.md
 ```
 
 Each folder is an independent Go module. To work on one project, go into its folder:
@@ -54,6 +58,8 @@ cd guess-it-2
 go build -o guess-it-2 .
 go test ./...
 ```
+
+Note: in `guess-it-1` the Go module is inside the `student` folder, so run `cd guess-it-1/student`.
 
 See the README of each project for its own usage.
 

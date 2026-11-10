@@ -1,0 +1,9 @@
+# compiled binaries
+/math-skills/bin/
+/guess-it-1/student/guess-it-1
+/guess-it-2/guess-it-2
+
+# official tester files (not my code)
+/guess-it-1/guess-it-dockerized/
+/linear-stats/stat-bin-dockerized.zip
+*.zip
